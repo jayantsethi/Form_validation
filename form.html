@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Form Validation</title>
+<link rel="stylesheet" type="text/css" href="fstyle.css">
+</head>
+<body>
+<pre>
+         <h1><b>    SIGN UP PAGE         </b></h1>
+</pre>
+<form name="theform" method="post" action="">
+<pre>
+Enter Your Name     : <input type="text" name="name1" onblur="validName()" onFocus="setName()"><label id="nlabel"></label><br/><br/>
+Enter Your Age      : <input type="text" name="age" onblur="validAge()" onFocus="setAge()"><label id="alabel"></label><br/><br/>
+Enter Your Email Id : <input type="text" name="email" onblur="validEmail()" onFocus="setEmail()"><label id="elabel"></label><br/><br/>
+Enter The Username  : <input type="text" name="uname" onblur="validUsername()" onFocus="setUname()"><label id="ulabel"></label><br/><br/>
+Enter The Password  : <input type="password" name="pw" onblur="validPassword()" onFocus="setPword()"><label id="plabel"></label><br/><br/>
+Confirm Password    : <input type="password" name="cpw" onblur="validCpassword()" onFocus="setCpword()"><label id="clabel"></label><br/><br/>
+            <input type="submit" value="SUBMIT">
+</pre>
+</form>
+<script>
+document.theform.name1.focus();
+</script>
+<script src="C:\wamp\www\AptanaPHPTest\form_validation.js">
+</script>
+</body>
+</html>
